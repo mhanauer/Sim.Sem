@@ -18,3 +18,4 @@ CFA.Model <- model.cfa(LY = LY, RPS = RPS, RTE = RTE)
 dat <- generate(CFA.Model, 200)
 out <- analyze(CFA.Model, dat)
 Output <- sim(1000, n=200, CFA.Model)
+
